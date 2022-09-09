@@ -1,2 +1,27 @@
 Hello World
 Hello world Again
+
+#created the two repos in two different accounts
+https://github.com/iamsireesh/original.git
+https://github.com/komalibhadram/another.git
+
+ 
+#clone to local machine 
+git clone https://github.com/iamsireesh/original.git
+
+
+#add remotes
+git remote set-url origin --push --add https://github.com/iamsireesh/original.git
+git remote set-url origin --push --add https://github.com/komalibhadram/another.git (added iamsireesh as contributer to another git repo)
+
+git remote -v 
+
+origin  https://github.com/iamsireesh/original.git (fetch)
+origin  https://github.com/iamsireesh/original.git (push)
+origin  https://github.com/komalibhadram/another.git (push)
+
+#added couple of files and pushed
+
+git push
+
+#changes are pushed to both repos
